@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    height: 75px; 
+    background-color: #5D678F;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* 
+.menu { 
+    padding: 16px;
+    display: flex;
+    background-color: aquamarine;
+    height: 100%; 
+    width: 15%;
+    position: fixed; 
+    left: 0;
+    top: 75px;
+    flex-direction: column;
+    align-items: center; 
+} */
+
+/* .btn-item {
+    background-color: #5D678F;
+    color: #fff;
+    display: flex;
+    border-radius: 25px;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 1rem 0;
+    border: none;
+} */
+
+/* .btn-item:hover {
+    background-color: #FF7070; 
+} */
+
+.product {
+    display: flex;
+    background-color: #fff;
+    height: 100%;
+    width: 85%;
+    position: absolute; 
+    right: 0;
+    top: 75px;
+    font-weight: 700;
+    font-family: Inter;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.sp1 {
+    border: 1px solid #FF7070;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoa-img {
+    position: relative;
+    width: 144px;
+    height: 144px;
+    margin: 10px 0; 
+    border: 1px solid #353A51;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);   
+}
+
+.img-product {
+    width: 143px;
+    height: 143px;
+    border-radius: 10px;    
+} 
+
+.sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 20px;
+    height: 25px;
+    top: 0;
+    right: 7px;
+    font-size: 5px;
+    color: #fff;
+    text-align: center;
+    background-color: #353A51;
+    border-radius: 0px 0px 5px 5px;
+    position: absolute;     
+} 
+
+
+.text {
+    color: #ED4F4F;
+    text-align: center;
+}
+
+.price_btn-buy {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    margin-right: 6px;
+}
+
+.gia-bd {
+    color: #6F748E;
+    font-size: 7px; 
+    text-decoration: 0.1px line-through #000;
+}
+
+.gia-ht {
+    color: #ED4F4F;
+    font-size: 13px;
+}
+
+.btn-buy {
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+    background: #353A51;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 700;
+}
